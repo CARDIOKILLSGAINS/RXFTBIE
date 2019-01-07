@@ -89,68 +89,11 @@ Mining:
         Min_Drop_Item_Amount: 1
         Max_Drop_Item_Amount: 1
 #RX CUSTOM BEGINS
-#Copper_Ore_1228
-    THERMALFOUNDATION_ORE:
-        ID: 1228
-        Data_Value: 0
-        XP_Gain: 200
-        Is_Ore: true
-        Tier: 1
-        Drop_Item: false
-        Drop_Item_ID: 999
-        Drop_Item_Data_Value: 0
-        Min_Drop_Item_Amount: 1
-        Max_Drop_Item_Amount: 1
-#Tin_Ore_1228
-    oreTin:
-        ID: 1228
-        Data_Value: 1
-        XP_Gain: 175
-        Is_Ore: true
-        Tier: 1
-        Drop_Item: false
-        Drop_Item_ID: 999
-        Drop_Item_Data_Value: 0
-        Min_Drop_Item_Amount: 1
-        Max_Drop_Item_Amount: 1
-    Dense_Coal_Ore_2715:
-        ID: 2715
-        Data_Value: 6
-        XP_Gain: 120
-        Is_Ore: true
-        Tier: 1
-        Drop_Item: false
-        Drop_Item_ID: 999
-        Drop_Item_Data_Value: 0
-        Min_Drop_Item_Amount: 1
-        Max_Drop_Item_Amount: 1
     Limestone_1503:
         ID: 1503
         Data_Value: 0
         XP_Gain: 40
-        Is_Ore: true
-        Tier: 1
-        Drop_Item: false
-        Drop_Item_ID: 999
-        Drop_Item_Data_Value: 0
-        Min_Drop_Item_Amount: 1
-        Max_Drop_Item_Amount: 1
-    Salt_Ore_1849:
-        ID: 1849
-        Data_Value: 0
-        XP_Gain: 70
-        Is_Ore: true
-        Tier: 1
-        Drop_Item: false
-        Drop_Item_ID: 999
-        Drop_Item_Data_Value: 0
-        Min_Drop_Item_Amount: 1
-        Max_Drop_Item_Amount: 1
-    Aluminum_Ore_2077:
-        ID: 2077
-        Data_Value: 5
-        XP_Gain: 120
-        Is_Ore: true
+        Is_Ore: false
         Tier: 1
         Drop_Item: false
         Drop_Item_ID: 999
@@ -159,7 +102,7 @@ Mining:
         Max_Drop_Item_Amount: 1
     Uranium_Ore_167:
         ID: 167
-        Data_Value: 5
+        Data_Value: 0
         XP_Gain: 650
         Is_Ore: true
         Tier: 1
@@ -183,6 +126,17 @@ Mining:
         ID: 411
         Data_Value: 0
         XP_Gain: 100
+        Is_Ore: true
+        Tier: 1
+        Drop_Item: false
+        Drop_Item_ID: 999
+        Drop_Item_Data_Value: 0
+        Min_Drop_Item_Amount: 1
+        Max_Drop_Item_Amount: 1
+    Certus_Quartz_Ore_412:
+        ID: 412
+        Data_Value: 0
+        XP_Gain: 1000
         Is_Ore: true
         Tier: 1
         Drop_Item: false
@@ -300,28 +254,6 @@ Mining:
         Drop_Item_Data_Value: 0
         Min_Drop_Item_Amount: 1
         Max_Drop_Item_Amount: 1
-    Silver_Ore_1228_2:
-        ID: 1228
-        Data_Value: 2
-        XP_Gain: 200
-        Is_Ore: true
-        Tier: 1
-        Drop_Item: false
-        Drop_Item_ID: 999
-        Drop_Item_Data_Value: 0
-        Min_Drop_Item_Amount: 1
-        Max_Drop_Item_Amount: 1
-    Ferrous_Ore_1228_4:
-        ID: 1228
-        Data_Value: 4
-        XP_Gain: 300
-        Is_Ore: true
-        Tier: 1
-        Drop_Item: false
-        Drop_Item_ID: 999
-        Drop_Item_Data_Value: 0
-        Min_Drop_Item_Amount: 1
-        Max_Drop_Item_Amount: 1
     Sapphire_Ore_1080_12:
         ID: 1080
         Data_Value: 12
@@ -354,8 +286,128 @@ Mining:
         Drop_Item_ID: 999
         Drop_Item_Data_Value: 0
         Min_Drop_Item_Amount: 1
-        Max_Drop_Item_Amount: 1    
-
+        Max_Drop_Item_Amount: 1 
+    Copper_Ore_1228:
+        ID: 1228
+        Data_Value: 0
+        XP_Gain: 200
+        Is_Ore: true
+        Tier: 1
+        Drop_Item: false
+        Drop_Item_ID: 999
+        Drop_Item_Data_Value: 0
+        Min_Drop_Item_Amount: 1
+        Max_Drop_Item_Amount: 1
+    Tin_Ore_1228:
+        ID: 1228
+        Data_Value: 1
+        XP_Gain: 175
+        Is_Ore: true
+        Tier: 1
+        Drop_Item: false
+        Drop_Item_ID: 999
+        Drop_Item_Data_Value: 0
+        Min_Drop_Item_Amount: 1
+        Max_Drop_Item_Amount: 1
+    Silver_Ore_1228_2:
+        ID: 1228
+        Data_Value: 2
+        XP_Gain: 200
+        Is_Ore: true
+        Tier: 1
+        Drop_Item: false
+        Drop_Item_ID: 999
+        Drop_Item_Data_Value: 0
+        Min_Drop_Item_Amount: 1
+        Max_Drop_Item_Amount: 1
+    Lead_Ore_1228_3:
+        ID: 1228
+        Data_Value: 3
+        XP_Gain: 200
+        Is_Ore: true
+        Tier: 1
+        Drop_Item: false
+        Drop_Item_ID: 999
+        Drop_Item_Data_Value: 0
+        Min_Drop_Item_Amount: 1
+        Max_Drop_Item_Amount: 1
+    Ferrous_Ore_1228_4:
+        ID: 1228
+        Data_Value: 4
+        XP_Gain: 300
+        Is_Ore: true
+        Tier: 1
+        Drop_Item: false
+        Drop_Item_ID: 999
+        Drop_Item_Data_Value: 0
+        Min_Drop_Item_Amount: 1
+        Max_Drop_Item_Amount: 1
+    Yellorite_Ore:
+        ID: 1240
+        Data_Value: 0
+        XP_Gain: 250
+        Is_Ore: true
+        Tier: 1
+        Drop_Item: false
+        Drop_Item_ID: 999
+        Drop_Item_Data_Value: 0
+        Min_Drop_Item_Amount: 1
+        Max_Drop_Item_Amount: 1
+    Salt_Ore_1849:
+        ID: 1849
+        Data_Value: 0
+        XP_Gain: 70
+        Is_Ore: true
+        Tier: 1
+        Drop_Item: false
+        Drop_Item_ID: 999
+        Drop_Item_Data_Value: 0
+        Min_Drop_Item_Amount: 1
+        Max_Drop_Item_Amount: 1
+    Ruby_Ore_2699:
+        ID: 2699
+        Data_Value: 0
+        XP_Gain: 670
+        Is_Ore: true
+        Tier: 2
+        Drop_Item: false
+        Drop_Item_ID: 999
+        Drop_Item_Data_Value: 0
+        Min_Drop_Item_Amount: 1
+        Max_Drop_Item_Amount: 1
+    Electrotine_Ore_2699_6:
+        ID: 2699
+        Data_Value: 6
+        XP_Gain: 900
+        Is_Ore: true
+        Tier: 2
+        Drop_Item: false
+        Drop_Item_ID: 999
+        Drop_Item_Data_Value: 0
+        Min_Drop_Item_Amount: 1
+        Max_Drop_Item_Amount: 1
+    Dense_Coal_Ore_2715:
+        ID: 2715
+        Data_Value: 6
+        XP_Gain: 120
+        Is_Ore: true
+        Tier: 1
+        Drop_Item: false
+        Drop_Item_ID: 999
+        Drop_Item_Data_Value: 0
+        Min_Drop_Item_Amount: 1
+        Max_Drop_Item_Amount: 1
+    Aluminum_Ore_2077:
+        ID: 2077
+        Data_Value: 5
+        XP_Gain: 120
+        Is_Ore: true
+        Tier: 1
+        Drop_Item: false
+        Drop_Item_ID: 999
+        Drop_Item_Data_Value: 0
+        Min_Drop_Item_Amount: 1
+        Max_Drop_Item_Amount: 1
 #
 #  Settings for Custom Woodcutting Blocks
 ###
