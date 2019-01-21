@@ -20,25 +20,24 @@ Excavation:
         Drop_Item_Data_Value: 0
         Min_Drop_Item_Amount: 1
         Max_Drop_Item_Amount: 1
-    Tin_Gravel_Ore_2078_3:
+    Gold_Gravel_Ore_2078_1:
         ID: 2078
-        Data_Value: 3
-        XP_Gain: 60
+        Data_Value: 1
+        XP_Gain: 200
         Drop_Item: false
-        Drop_Item_ID: 999
-        Drop_Item_Data_Value: 0
-        Min_Drop_Item_Amount: 1
-        Max_Drop_Item_Amount: 1
+        Double_Drops_Enabled: true
     Copper_Gravel_Ore_2078_2:
         ID: 2078
         Data_Value: 2
         XP_Gain: 120
         Drop_Item: false
-        Drop_Item_ID: 999
-        Drop_Item_Data_Value: 0
-        Min_Drop_Item_Amount: 1
-        Max_Drop_Item_Amount: 1
-
+        Double_Drops_Enabled: true
+    Tin_Gravel_Ore_2078_3:
+        ID: 2078
+        Data_Value: 3
+        XP_Gain: 75
+        Drop_Item: false
+        Double_Drops_Enabled: true
 #
 #  Settings for Custom Herbalism Blocks
 ###
@@ -61,7 +60,1011 @@ Herbalism:
         Drop_Item_Data_Value: 0
         Min_Drop_Item_Amount: 1
         Max_Drop_Item_Amount: 1
-
+#RX Custom BEGINS
+    Agricraft_Potato_243:
+        ID: 243
+        Data_Value: 0
+        XP_Gain: 50
+        Drop_Item: false
+        Double_Drops_Enabled: true
+    Agricraft_Carrot_244:
+        ID: 244
+        Data_Value: 0
+        XP_Gain: 50
+        Drop_Item: false
+        Double_Drops_Enabled: true
+    Agricraft_Sugar_Cane_245:
+        ID: 245
+        Data_Value: 0
+        XP_Gain: 30
+        Drop_Item: false
+        Double_Drops_Enabled: true
+    Mystical_White_Flower_572:
+        ID: 572
+        Data_Value: 0
+        XP_Gain: 110
+        Drop_Item: false
+        Double_Drops_Enabled: true
+    Mystical_Orange_Flower_572_1:
+        ID: 572
+        Data_Value: 1
+        XP_Gain: 110
+        Drop_Item: false
+        Double_Drops_Enabled: true
+    Mystical_Magenta_Flower_572_2:
+        ID: 572
+        Data_Value: 1
+        XP_Gain: 110
+        Drop_Item: false
+        Double_Drops_Enabled: true
+    Mystical_Light_Blue_Flower_572_3:
+        ID: 572
+        Data_Value: 3
+        XP_Gain: 30
+        Drop_Item: false
+        Double_Drops_Enabled: true
+    Mystical_Yellow_Flower_572_4:
+        ID: 572
+        Data_Value: 4
+        XP_Gain: 110
+        Drop_Item: false
+        Double_Drops_Enabled: true
+    Mystical_Lime_Flower_572_5:
+        ID: 572
+        Data_Value: 5
+        XP_Gain: 110
+        Drop_Item: false
+        Double_Drops_Enabled: true
+    Mystical_Pink_Flower_572_6:
+        ID: 572
+        Data_Value: 6
+        XP_Gain: 110
+        Drop_Item: false
+        Double_Drops_Enabled: true
+    Mystical_Gray_Flower_572_7:
+        ID: 572
+        Data_Value: 7
+        XP_Gain: 110
+        Drop_Item: false
+        Double_Drops_Enabled: true
+    Mystical_Light_Gray_Flower_572_8:
+        ID: 572
+        Data_Value: 8
+        XP_Gain: 110
+        Drop_Item: false
+        Double_Drops_Enabled: true
+    Mystical_Cyan_Flower_572_9:
+        ID: 572
+        Data_Value: 9
+        XP_Gain: 110
+        Drop_Item: false
+        Double_Drops_Enabled: true
+    Mystical_Purple_Flower_572_10:
+        ID: 572
+        Data_Value: 10
+        XP_Gain: 110
+        Drop_Item: false
+        Double_Drops_Enabled: true
+    Mystical_Blue_Flower_572_11:
+        ID: 572
+        Data_Value: 11
+        XP_Gain: 110
+        Drop_Item: false
+        Double_Drops_Enabled: true
+    Mystical_Brown_Flower_572_12:
+        ID: 572
+        Data_Value: 12
+        XP_Gain: 110
+        Drop_Item: false
+        Double_Drops_Enabled: true
+    Mystical_Green_Flower_572_13:
+        ID: 572
+        Data_Value: 13
+        XP_Gain: 110
+        Drop_Item: false
+        Double_Drops_Enabled: true
+    Mystical_Red_Flower_572_14:
+        ID: 572
+        Data_Value: 14
+        XP_Gain: 110
+        Drop_Item: false
+        Double_Drops_Enabled: true
+    Mystical_Black_Flower_572_15:
+        ID: 572
+        Data_Value: 15
+        XP_Gain: 110
+        Drop_Item: false
+        Double_Drops_Enabled: true
+    Tall_Mystical_White_Flower_634:
+        ID: 634
+        Data_Value: 0
+        XP_Gain: 250
+        Drop_Item: false
+        Double_Drops_Enabled: true
+    Tall_Mystical_Orange_Flower_634_1:
+        ID: 634
+        Data_Value: 1
+        XP_Gain: 250
+        Drop_Item: false
+        Double_Drops_Enabled: true
+    Tall_Mystical_Magenta_Flower_634_2:
+        ID: 634
+        Data_Value: 1
+        XP_Gain: 250
+        Drop_Item: false
+        Double_Drops_Enabled: true
+    Tall_Mystical_Light_Blue_Flower_634_3:
+        ID: 634
+        Data_Value: 3
+        XP_Gain: 250
+        Drop_Item: false
+        Double_Drops_Enabled: true
+    Tall_Mystical_Yellow_Flower_634_4:
+        ID: 634
+        Data_Value: 4
+        XP_Gain: 250
+        Drop_Item: false
+        Double_Drops_Enabled: true
+    Tall_Mystical_Lime_Flower_634_5:
+        ID: 634
+        Data_Value: 5
+        XP_Gain: 250
+        Drop_Item: false
+        Double_Drops_Enabled: true
+    Tall_Mystical_Pink_Flower_634_6:
+        ID: 634
+        Data_Value: 6
+        XP_Gain: 250
+        Drop_Item: false
+        Double_Drops_Enabled: true
+    Tall_Mystical_Gray_Flower_634_7:
+        ID: 634
+        Data_Value: 7
+        XP_Gain: 250
+        Drop_Item: false
+        Double_Drops_Enabled: true
+    Tall_Mystical_Light_Gray_Flower_635:
+        ID: 634
+        Data_Value: 0
+        XP_Gain: 250
+        Drop_Item: false
+        Double_Drops_Enabled: true
+    Tall_Mystical_Cyan_Flower_635_1:
+        ID: 635
+        Data_Value: 1
+        XP_Gain: 250
+        Drop_Item: false
+        Double_Drops_Enabled: true
+    Tall_Mystical_Purple_Flower_635_2:
+        ID: 635
+        Data_Value: 2
+        XP_Gain: 250
+        Drop_Item: false
+        Double_Drops_Enabled: true
+    Tall_Mystical_Blue_Flower_635_3:
+        ID: 635
+        Data_Value: 3
+        XP_Gain: 250
+        Drop_Item: false
+        Double_Drops_Enabled: true
+    Tall_Mystical_Brown_Flower_635_4:
+        ID: 635
+        Data_Value: 4
+        XP_Gain: 250
+        Drop_Item: false
+        Double_Drops_Enabled: true
+    Tall_Mystical_Green_Flower_635_5:
+        ID: 635
+        Data_Value: 5
+        XP_Gain: 250
+        Drop_Item: false
+        Double_Drops_Enabled: true
+    Tall_Mystical_Red_Flower_635_6:
+        ID: 635
+        Data_Value: 6
+        XP_Gain: 250
+        Drop_Item: false
+        Double_Drops_Enabled: true
+    Tall_Mystical_Black_Flower_635_7:
+        ID: 635
+        Data_Value: 7
+        XP_Gain: 250
+        Drop_Item: false
+        Double_Drops_Enabled: true
+#Natura
+    Raspberry_Bush_915_12:
+        ID: 915
+        Data_Value: 12
+        XP_Gain: 45
+        Drop_Item: false
+        Double_Drops_Enabled: true
+    Blueberry_Bush_915_13:
+        ID: 915
+        Data_Value: 13
+        XP_Gain: 45
+        Drop_Item: false
+        Double_Drops_Enabled: true
+    Blackberry_Bush_915_14:
+        ID: 915
+        Data_Value: 14
+        XP_Gain: 45
+        Drop_Item: false
+        Double_Drops_Enabled: true
+    Maloberry_Bush_915_15:
+        ID: 915
+        Data_Value: 15
+        XP_Gain: 45
+        Drop_Item: false
+        Double_Drops_Enabled: true
+    Green_Glowshroom_939:
+        ID: 939
+        Data_Value: 0
+        XP_Gain: 175
+        Drop_Item: false
+        Double_Drops_Enabled: true
+    Purple_Glowshroom_939_1:
+        ID: 939
+        Data_Value: 1
+        XP_Gain: 175
+        Drop_Item: false
+        Double_Drops_Enabled: true
+    Blue_Glowshroom_939_2:
+        ID: 939
+        Data_Value: 2
+        XP_Gain: 175
+        Drop_Item: false
+        Double_Drops_Enabled: true
+    Bluebells_957:
+        ID: 957
+        Data_Value: 1
+        XP_Gain: 75
+        Drop_Item: false
+        Double_Drops_Enabled: true
+#Biomes O' Plenty
+    Clover_1036:
+        ID: 1036
+        Data_Value: 0
+        XP_Gain: 80
+        Drop_Item: false
+        Double_Drops_Enabled: true
+    Swampflower_1036_1:
+        ID: 1036
+        Data_Value: 1
+        XP_Gain: 90
+        Drop_Item: false
+        Double_Drops_Enabled: true
+    Deathbloom_1036_2:
+        ID: 1036
+        Data_Value: 2
+        XP_Gain: 90
+        Drop_Item: false
+        Double_Drops_Enabled: true
+    Glowflower_1036_3:
+        ID: 1036
+        Data_Value: 3
+        XP_Gain: 100
+        Drop_Item: false
+        Double_Drops_Enabled: true
+    Blue_Hydrangea_1036_4:
+        ID: 1036
+        Data_Value: 4
+        XP_Gain: 80
+        Drop_Item: false
+        Double_Drops_Enabled: true
+    Orange_Cosmos_1036_5:
+        ID: 1036
+        Data_Value: 5
+        XP_Gain: 80
+        Drop_Item: false
+        Double_Drops_Enabled: true
+    Pink_Daffodil_1036_6:
+        ID: 1036
+        Data_Value: 6
+        XP_Gain: 80
+        Drop_Item: false
+        Double_Drops_Enabled: true
+    Wildflower_1036_7:
+        ID: 1036
+        Data_Value: 7
+        XP_Gain: 80
+        Drop_Item: false
+        Double_Drops_Enabled: true
+    Violet_1036_8:
+        ID: 1036
+        Data_Value: 8
+        XP_Gain: 80
+        Drop_Item: false
+        Double_Drops_Enabled: true
+    White_Anemone_1036_9:
+        ID: 1036
+        Data_Value: 9
+        XP_Gain: 80
+        Drop_Item: false
+        Double_Drops_Enabled: true
+    Waterlily_1036_10:
+        ID: 1036
+        Data_Value: 10
+        XP_Gain: 80
+        Drop_Item: false
+        Double_Drops_Enabled: true
+    Enderlotus_1036_11:
+        ID: 1036
+        Data_Value: 11
+        XP_Gain: 80
+        Drop_Item: false
+        Double_Drops_Enabled: true
+    Bromeliad_1036_12:
+        ID: 1036
+        Data_Value: 12
+        XP_Gain: 80
+        Drop_Item: false
+        Double_Drops_Enabled: true
+    Eyebulb_1036_13:
+        ID: 1036
+        Data_Value: 13
+        XP_Gain: 80
+        Drop_Item: false
+        Double_Drops_Enabled: true
+#There is no 14
+    Dandelion_Puff_1036_15:
+        ID: 1036
+        Data_Value: 15
+        XP_Gain: 80
+        Drop_Item: false
+        Double_Drops_Enabled: true
+    Toadstool_1039:
+        ID: 1039
+        Data_Value: 0
+        XP_Gain: 100
+        Drop_Item: false
+        Double_Drops_Enabled: true
+    Portobello_1039_1:
+        ID: 1039
+        Data_Value: 1
+        XP_Gain: 100
+        Drop_Item: false
+        Double_Drops_Enabled: true
+    Blue_Milk_Cap_1039_2:
+        ID: 1039
+        Data_Value: 2
+        XP_Gain: 100
+        Drop_Item: false
+        Double_Drops_Enabled: true
+    Glowshroom_1039_3:
+        ID: 1039
+        Data_Value: 3
+        XP_Gain: 100
+        Drop_Item: false
+        Double_Drops_Enabled: true
+    Flat_Mushroom_1039_4:
+        ID: 1039
+        Data_Value: 4
+        XP_Gain: 100
+        Drop_Item: false
+        Double_Drops_Enabled: true
+    Shadow_Shroom_1039_5:
+        ID: 1039
+        Data_Value: 5
+        XP_Gain: 100
+        Drop_Item: false
+        Double_Drops_Enabled: true
+#Pam's Harvestcraft
+    Berry_Garden_1860:
+        ID: 1860
+        Data_Value: 0
+        XP_Gain: 100
+        Drop_Item: false
+        Double_Drops_Enabled: true
+    Desert_Garden_1861:
+        ID: 1861
+        Data_Value: 0
+        XP_Gain: 100
+        Drop_Item: false
+        Double_Drops_Enabled: true
+    Grass_Garden_1862:
+        ID: 1862
+        Data_Value: 0
+        XP_Gain: 100
+        Drop_Item: false
+        Double_Drops_Enabled: true
+    Gourd_Garden_1863:
+        ID: 1863
+        Data_Value: 0
+        XP_Gain: 100
+        Drop_Item: false
+        Double_Drops_Enabled: true
+    Ground_Garden_1864:
+        ID: 1864
+        Data_Value: 0
+        XP_Gain: 100
+        Drop_Item: false
+        Double_Drops_Enabled: true
+    Herb_Garden_1865:
+        ID: 1865
+        Data_Value: 0
+        XP_Gain: 100
+        Drop_Item: false
+        Double_Drops_Enabled: true
+    Leafy_Garden_1866:
+        ID: 1866
+        Data_Value: 0
+        XP_Gain: 100
+        Drop_Item: false
+        Double_Drops_Enabled: true
+    Mushroom_Garden_1867:
+        ID: 1867
+        Data_Value: 0
+        XP_Gain: 100
+        Drop_Item: false
+        Double_Drops_Enabled: true
+    Stalk_Garden_1868:
+        ID: 1868
+        Data_Value: 0
+        XP_Gain: 100
+        Drop_Item: false
+        Double_Drops_Enabled: true
+    Textile_Garden_1869:
+        ID: 1869
+        Data_Value: 0
+        XP_Gain: 100
+        Drop_Item: false
+        Double_Drops_Enabled: true
+    Tropical_Garden_1870:
+        ID: 1870
+        Data_Value: 0
+        XP_Gain: 100
+        Drop_Item: false
+        Double_Drops_Enabled: true
+    Water_Garden_1871:
+        ID: 1871
+        Data_Value: 0
+        XP_Gain: 100
+        Drop_Item: false
+        Double_Drops_Enabled: true
+    Pams_Blackberry:
+        ID: 5860
+        Data_Value: 0
+        XP_Gain: 99
+        Drop_Item: false
+        Drop_Item_ID: 5860
+        Drop_Item_Data_Value: 0
+        Min_Drop_Item_Amount: 1
+        Max_Drop_Item_Amount: 1
+    Pams_Blueberry:
+        ID: 5861
+        Data_Value: 0
+        XP_Gain: 99
+        Drop_Item: false
+        Drop_Item_ID: 5861
+        Drop_Item_Data_Value: 0
+        Min_Drop_Item_Amount: 1
+        Max_Drop_Item_Amount: 1
+    Pams_Candleberry:
+        ID: 5862
+        Data_Value: 0
+        XP_Gain: 99
+        Drop_Item: false
+        Drop_Item_ID: 5862
+        Drop_Item_Data_Value: 0
+        Min_Drop_Item_Amount: 1
+        Max_Drop_Item_Amount: 1
+    Pams_Raspberry:
+        ID: 5863
+        Data_Value: 0
+        XP_Gain: 99
+        Drop_Item: false
+        Drop_Item_ID: 5863
+        Drop_Item_Data_Value: 0
+        Min_Drop_Item_Amount: 1
+        Max_Drop_Item_Amount: 1
+    Pams_Strawberry:
+        ID: 5864
+        Data_Value: 0
+        XP_Gain: 99
+        Drop_Item: false
+        Drop_Item_ID: 5864
+        Drop_Item_Data_Value: 0
+        Min_Drop_Item_Amount: 1
+        Max_Drop_Item_Amount: 1
+    Pams_Grape:
+        ID: 5865
+        Data_Value: 0
+        XP_Gain: 99
+        Drop_Item: false
+        Drop_Item_ID: 5865
+        Drop_Item_Data_Value: 0
+        Min_Drop_Item_Amount: 1
+        Max_Drop_Item_Amount: 1
+    Pams_Cactus_Fruit:
+        ID: 5866
+        Data_Value: 0
+        XP_Gain: 99
+        Drop_Item: false
+        Drop_Item_ID: 5866
+        Drop_Item_Data_Value: 0
+        Min_Drop_Item_Amount: 1
+        Max_Drop_Item_Amount: 1
+    Pams_Asparagus:
+        ID: 5867
+        Data_Value: 0
+        XP_Gain: 99
+        Drop_Item: false
+        Drop_Item_ID: 5867
+        Drop_Item_Data_Value: 0
+        Min_Drop_Item_Amount: 1
+        Max_Drop_Item_Amount: 1
+    Pams_Barley:
+        ID: 5868
+        Data_Value: 0
+        XP_Gain: 99
+        Drop_Item: false
+        Drop_Item_ID: 5868
+        Drop_Item_Data_Value: 0
+        Min_Drop_Item_Amount: 1
+        Max_Drop_Item_Amount: 1
+    Pams_Oats:
+        ID: 5869
+        Data_Value: 0
+        XP_Gain: 99
+        Drop_Item: false
+        Drop_Item_ID: 5869
+        Drop_Item_Data_Value: 0
+        Min_Drop_Item_Amount: 1
+        Max_Drop_Item_Amount: 1
+    Pams_Rye:
+        ID: 5870
+        Data_Value: 0
+        XP_Gain: 99
+        Drop_Item: false
+        Drop_Item_ID: 5870
+        Drop_Item_Data_Value: 0
+        Min_Drop_Item_Amount: 1
+        Max_Drop_Item_Amount: 1
+    Pams_Corn:
+        ID: 5871
+        Data_Value: 0
+        XP_Gain: 99
+        Drop_Item: false
+        Drop_Item_ID: 5871
+        Drop_Item_Data_Value: 0
+        Min_Drop_Item_Amount: 1
+        Max_Drop_Item_Amount: 1
+    Pams_Bamboo_Shoot:
+        ID: 5872
+        Data_Value: 0
+        XP_Gain: 99
+        Drop_Item: false
+        Drop_Item_ID: 5872
+        Drop_Item_Data_Value: 0
+        Min_Drop_Item_Amount: 1
+        Max_Drop_Item_Amount: 1
+    Pams_Cantaloupe:
+        ID: 5873
+        Data_Value: 0
+        XP_Gain: 99
+        Drop_Item: false
+        Drop_Item_ID: 5873
+        Drop_Item_Data_Value: 0
+        Min_Drop_Item_Amount: 1
+        Max_Drop_Item_Amount: 1
+    Pams_Cucumber:
+        ID: 5874
+        Data_Value: 0
+        XP_Gain: 99
+        Drop_Item: false
+        Drop_Item_ID: 5874
+        Drop_Item_Data_Value: 0
+        Min_Drop_Item_Amount: 1
+        Max_Drop_Item_Amount: 1
+    Pams_Winter_Squash:
+        ID: 5875
+        Data_Value: 0
+        XP_Gain: 99
+        Drop_Item: false
+        Drop_Item_ID: 5875
+        Drop_Item_Data_Value: 0
+        Min_Drop_Item_Amount: 1
+        Max_Drop_Item_Amount: 1
+    Pams_Zucchini:
+        ID: 5876
+        Data_Value: 0
+        XP_Gain: 99
+        Drop_Item: false
+        Drop_Item_ID: 5876
+        Drop_Item_Data_Value: 0
+        Min_Drop_Item_Amount: 1
+        Max_Drop_Item_Amount: 1
+    Pams_Beet:
+        ID: 5877
+        Data_Value: 0
+        XP_Gain: 99
+        Drop_Item: false
+        Drop_Item_ID: 5877
+        Drop_Item_Data_Value: 0
+        Min_Drop_Item_Amount: 1
+        Max_Drop_Item_Amount: 1
+    Pams_Onion:
+        ID: 5878
+        Data_Value: 0
+        XP_Gain: 99
+        Drop_Item: false
+        Drop_Item_ID: 5878
+        Drop_Item_Data_Value: 0
+        Min_Drop_Item_Amount: 1
+        Max_Drop_Item_Amount: 1
+    Pams_Parsnip:
+        ID: 5879
+        Data_Value: 0
+        XP_Gain: 99
+        Drop_Item: false
+        Drop_Item_ID: 5879
+        Drop_Item_Data_Value: 0
+        Min_Drop_Item_Amount: 1
+        Max_Drop_Item_Amount: 1
+    Pams_Peanut:
+        ID: 5880
+        Data_Value: 0
+        XP_Gain: 99
+        Drop_Item: false
+        Drop_Item_ID: 5880
+        Drop_Item_Data_Value: 0
+        Min_Drop_Item_Amount: 1
+        Max_Drop_Item_Amount: 1
+    Pams_Radish:
+        ID: 5881
+        Data_Value: 0
+        XP_Gain: 99
+        Drop_Item: false
+        Drop_Item_ID: 5881
+        Drop_Item_Data_Value: 0
+        Min_Drop_Item_Amount: 1
+        Max_Drop_Item_Amount: 1
+    Pams_Rutabaga:
+        ID: 5882
+        Data_Value: 0
+        XP_Gain: 99
+        Drop_Item: false
+        Drop_Item_ID: 5882
+        Drop_Item_Data_Value: 0
+        Min_Drop_Item_Amount: 1
+        Max_Drop_Item_Amount: 1
+    Pams_Sweet_Potato:
+        ID: 5883
+        Data_Value: 0
+        XP_Gain: 99
+        Drop_Item: false
+        Drop_Item_ID: 5883
+        Drop_Item_Data_Value: 0
+        Min_Drop_Item_Amount: 1
+        Max_Drop_Item_Amount: 1
+    Pams_Turnip:
+        ID: 5884
+        Data_Value: 0
+        XP_Gain: 99
+        Drop_Item: false
+        Drop_Item_ID: 5884
+        Drop_Item_Data_Value: 0
+        Min_Drop_Item_Amount: 1
+        Max_Drop_Item_Amount: 1
+    Pams_Rhubarb:
+        ID: 5885
+        Data_Value: 0
+        XP_Gain: 99
+        Drop_Item: false
+        Drop_Item_ID: 5885
+        Drop_Item_Data_Value: 0
+        Min_Drop_Item_Amount: 1
+        Max_Drop_Item_Amount: 1
+    Pams_Celery:
+        ID: 5886
+        Data_Value: 0
+        XP_Gain: 99
+        Drop_Item: false
+        Drop_Item_ID: 5886
+        Drop_Item_Data_Value: 0
+        Min_Drop_Item_Amount: 1
+        Max_Drop_Item_Amount: 1
+    Pams_Garlic:
+        ID: 5887
+        Data_Value: 0
+        XP_Gain: 99
+        Drop_Item: false
+        Drop_Item_ID: 5887
+        Drop_Item_Data_Value: 0
+        Min_Drop_Item_Amount: 1
+        Max_Drop_Item_Amount: 1
+    Pams_Ginger:
+        ID: 5888
+        Data_Value: 0
+        XP_Gain: 99
+        Drop_Item: false
+        Drop_Item_ID: 5888
+        Drop_Item_Data_Value: 0
+        Min_Drop_Item_Amount: 1
+        Max_Drop_Item_Amount: 1
+    Pams_Spice_Leaf:
+        ID: 5889
+        Data_Value: 0
+        XP_Gain: 99
+        Drop_Item: false
+        Drop_Item_ID: 5889
+        Drop_Item_Data_Value: 0
+        Min_Drop_Item_Amount: 1
+        Max_Drop_Item_Amount: 1
+    Pams_Tea_Leaf:
+        ID: 5890
+        Data_Value: 0
+        XP_Gain: 99
+        Drop_Item: false
+        Drop_Item_ID: 5890
+        Drop_Item_Data_Value: 0
+        Min_Drop_Item_Amount: 1
+        Max_Drop_Item_Amount: 1
+    Pams_Coffee_Beans:
+        ID: 5891
+        Data_Value: 0
+        XP_Gain: 99
+        Drop_Item: false
+        Drop_Item_ID: 5891
+        Drop_Item_Data_Value: 0
+        Min_Drop_Item_Amount: 1
+        Max_Drop_Item_Amount: 1
+    Pams_Mustard_Seeds:
+        ID: 5892
+        Data_Value: 0
+        XP_Gain: 99
+        Drop_Item: false
+        Drop_Item_ID: 5892
+        Drop_Item_Data_Value: 0
+        Min_Drop_Item_Amount: 1
+        Max_Drop_Item_Amount: 1
+    Pams_Broccoli:
+        ID: 5894
+        Data_Value: 0
+        XP_Gain: 99
+        Drop_Item: false
+        Drop_Item_ID: 5894
+        Drop_Item_Data_Value: 0
+        Min_Drop_Item_Amount: 1
+        Max_Drop_Item_Amount: 1
+    Pams_Cauliflower:
+        ID: 5895
+        Data_Value: 0
+        XP_Gain: 99
+        Drop_Item: false
+        Drop_Item_ID: 5895
+        Drop_Item_Data_Value: 0
+        Min_Drop_Item_Amount: 1
+        Max_Drop_Item_Amount: 1
+    Pams_Leek:
+        ID: 5896
+        Data_Value: 0
+        XP_Gain: 99
+        Drop_Item: false
+        Drop_Item_ID: 5896
+        Drop_Item_Data_Value: 0
+        Min_Drop_Item_Amount: 1
+        Max_Drop_Item_Amount: 1
+    Pams_Lettuce:
+        ID: 5897
+        Data_Value: 0
+        XP_Gain: 99
+        Drop_Item: false
+        Drop_Item_ID: 5897
+        Drop_Item_Data_Value: 0
+        Min_Drop_Item_Amount: 1
+        Max_Drop_Item_Amount: 1
+    Pams_Scallion:
+        ID: 5898
+        Data_Value: 0
+        XP_Gain: 99
+        Drop_Item: false
+        Drop_Item_ID: 5898
+        Drop_Item_Data_Value: 0
+        Min_Drop_Item_Amount: 1
+        Max_Drop_Item_Amount: 1
+    Pams_Artichoke:
+        ID: 5899
+        Data_Value: 0
+        XP_Gain: 99
+        Drop_Item: false
+        Drop_Item_ID: 5899
+        Drop_Item_Data_Value: 0
+        Min_Drop_Item_Amount: 1
+        Max_Drop_Item_Amount: 1
+    Pams_Brussel_Sprout:
+        ID: 5900
+        Data_Value: 0
+        XP_Gain: 99
+        Drop_Item: false
+        Drop_Item_ID: 5900
+        Drop_Item_Data_Value: 0
+        Min_Drop_Item_Amount: 1
+        Max_Drop_Item_Amount: 1
+    Pams_Cabbage:
+        ID: 5901
+        Data_Value: 0
+        XP_Gain: 99
+        Drop_Item: false
+        Drop_Item_ID: 5901
+        Drop_Item_Data_Value: 0
+        Min_Drop_Item_Amount: 1
+        Max_Drop_Item_Amount: 1
+    Pams_Spinach:
+        ID: 1984
+        Data_Value: 0
+        XP_Gain: 50
+        Drop_Item: false
+        Double_Drops_Enabled: true
+    Pams_White_Mushroom:
+        ID: 5903
+        Data_Value: 0
+        XP_Gain: 99
+        Drop_Item: false
+        Drop_Item_ID: 5903
+        Drop_Item_Data_Value: 0
+        Min_Drop_Item_Amount: 1
+        Max_Drop_Item_Amount: 1
+    Pams_Beans:
+        ID: 5904
+        Data_Value: 0
+        XP_Gain: 99
+        Drop_Item: false
+        Drop_Item_ID: 5904
+        Drop_Item_Data_Value: 0
+        Min_Drop_Item_Amount: 1
+        Max_Drop_Item_Amount: 1
+    Pams_Soybean:
+        ID: 5905
+        Data_Value: 0
+        XP_Gain: 99
+        Drop_Item: false
+        Drop_Item_ID: 5905
+        Drop_Item_Data_Value: 0
+        Min_Drop_Item_Amount: 1
+        Max_Drop_Item_Amount: 1
+    Pams_Bellpepper:
+        ID: 5906
+        Data_Value: 0
+        XP_Gain: 99
+        Drop_Item: false
+        Drop_Item_ID: 5906
+        Drop_Item_Data_Value: 0
+        Min_Drop_Item_Amount: 1
+        Max_Drop_Item_Amount: 1
+    Pams_Chili_Pepper:
+        ID: 5907
+        Data_Value: 0
+        XP_Gain: 99
+        Drop_Item: false
+        Drop_Item_ID: 5907
+        Drop_Item_Data_Value: 0
+        Min_Drop_Item_Amount: 1
+        Max_Drop_Item_Amount: 1
+    Pams_Eggplant:
+        ID: 5908
+        Data_Value: 0
+        XP_Gain: 99
+        Drop_Item: false
+        Drop_Item_ID: 5908
+        Drop_Item_Data_Value: 0
+        Min_Drop_Item_Amount: 1
+        Max_Drop_Item_Amount: 1
+    Pams_Okra:
+        ID: 5909
+        Data_Value: 0
+        XP_Gain: 99
+        Drop_Item: false
+        Drop_Item_ID: 5909
+        Drop_Item_Data_Value: 0
+        Min_Drop_Item_Amount: 1
+        Max_Drop_Item_Amount: 1
+    Pams_Peas:
+        ID: 5910
+        Data_Value: 0
+        XP_Gain: 99
+        Drop_Item: false
+        Drop_Item_ID: 5910
+        Drop_Item_Data_Value: 0
+        Min_Drop_Item_Amount: 1
+        Max_Drop_Item_Amount: 1
+    Pams_Tomato:
+        ID: 5911
+        Data_Value: 0
+        XP_Gain: 99
+        Drop_Item: false
+        Drop_Item_ID: 5911
+        Drop_Item_Data_Value: 0
+        Min_Drop_Item_Amount: 1
+        Max_Drop_Item_Amount: 1
+    Pams_Cotton:
+        ID: 5912
+        Data_Value: 0
+        XP_Gain: 99
+        Drop_Item: false
+        Drop_Item_ID: 5912
+        Drop_Item_Data_Value: 0
+        Min_Drop_Item_Amount: 1
+        Max_Drop_Item_Amount: 1
+    Pams_Pineapple:
+        ID: 5913
+        Data_Value: 0
+        XP_Gain: 99
+        Drop_Item: false
+        Drop_Item_ID: 5913
+        Drop_Item_Data_Value: 0
+        Min_Drop_Item_Amount: 1
+        Max_Drop_Item_Amount: 1
+    Pams_Kiwi:
+        ID: 5914
+        Data_Value: 0
+        XP_Gain: 99
+        Drop_Item: false
+        Drop_Item_ID: 5914
+        Drop_Item_Data_Value: 0
+        Min_Drop_Item_Amount: 1
+        Max_Drop_Item_Amount: 1
+    Pams_Seasame_Seeds:
+        ID: 5915
+        Data_Value: 0
+        XP_Gain: 99
+        Drop_Item: false
+        Drop_Item_ID: 5915
+        Drop_Item_Data_Value: 0
+        Min_Drop_Item_Amount: 1
+        Max_Drop_Item_Amount: 1
+    Pams_Curry_Leaf:
+        ID: 5916
+        Data_Value: 0
+        XP_Gain: 99
+        Drop_Item: false
+        Drop_Item_ID: 5916
+        Drop_Item_Data_Value: 0
+        Min_Drop_Item_Amount: 1
+        Max_Drop_Item_Amount: 1
+    Pams_Cranberry:
+        ID: 5917
+        Data_Value: 0
+        XP_Gain: 99
+        Drop_Item: false
+        Drop_Item_ID: 5917
+        Drop_Item_Data_Value: 0
+        Min_Drop_Item_Amount: 1
+        Max_Drop_Item_Amount: 1
+    Pams_Rice:
+        ID: 5918
+        Data_Value: 0
+        XP_Gain: 99
+        Drop_Item: false
+        Drop_Item_ID: 5918
+        Drop_Item_Data_Value: 0
+        Min_Drop_Item_Amount: 1
+        Max_Drop_Item_Amount: 1
+    Pams_Seaweed:
+        ID: 5919
+        Data_Value: 0
+        XP_Gain: 99
+        Drop_Item: false
+        Drop_Item_ID: 5919
+        Drop_Item_Data_Value: 0
+        Min_Drop_Item_Amount: 1
+        Max_Drop_Item_Amount: 1
+    Pams_Water_Chestnut:
+        ID: 5920
+        Data_Value: 0
+        XP_Gain: 99
+        Drop_Item: false
+        Drop_Item_ID: 5920
+        Drop_Item_Data_Value: 0
+        Min_Drop_Item_Amount: 1
+        Max_Drop_Item_Amount: 1
+#ProjectRed
+    Deviating_Lily_2702:
+        ID: 2702
+        Data_Value: 0
+        XP_Gain: 100
+        Drop_Item: false
+        Double_Drops_Enabled: true
 #
 #  Settings for Custom Mining Blocks
 ###
@@ -89,17 +1092,6 @@ Mining:
         Min_Drop_Item_Amount: 1
         Max_Drop_Item_Amount: 1
 #RX CUSTOM BEGINS
-    Limestone_1503:
-        ID: 1503
-        Data_Value: 0
-        XP_Gain: 40
-        Is_Ore: false
-        Tier: 1
-        Drop_Item: false
-        Drop_Item_ID: 999
-        Drop_Item_Data_Value: 0
-        Min_Drop_Item_Amount: 1
-        Max_Drop_Item_Amount: 1
     Uranium_Ore_167:
         ID: 167
         Data_Value: 0
@@ -111,6 +1103,7 @@ Mining:
         Drop_Item_Data_Value: 0
         Min_Drop_Item_Amount: 1
         Max_Drop_Item_Amount: 1
+        Double_Drops_Enabled: true
     Lead_Ore_168:
         ID: 168
         Data_Value: 0
@@ -122,6 +1115,7 @@ Mining:
         Drop_Item_Data_Value: 0
         Min_Drop_Item_Amount: 1
         Max_Drop_Item_Amount: 1
+        Double_Drops_Enabled: true
     Certus_Quartz_Ore_411:
         ID: 411
         Data_Value: 0
@@ -133,6 +1127,7 @@ Mining:
         Drop_Item_Data_Value: 0
         Min_Drop_Item_Amount: 1
         Max_Drop_Item_Amount: 1
+        Double_Drops_Enabled: true
     Certus_Quartz_Ore_412:
         ID: 412
         Data_Value: 0
@@ -144,6 +1139,16 @@ Mining:
         Drop_Item_Data_Value: 0
         Min_Drop_Item_Amount: 1
         Max_Drop_Item_Amount: 1
+        Double_Drops_Enabled: true
+#APPLIED ENERGETICS
+    SkyStone_427:
+        ID: 427
+        Data_Value: 0
+        XP_Gain: 100
+        Is_Ore: false
+        Tier: 3
+        Drop_Item: false
+        Double_Drops_Enabled: true
     Cinnabar_Ore_531:
         ID: 531
         Data_Value: 0
@@ -155,6 +1160,7 @@ Mining:
         Drop_Item_Data_Value: 0
         Min_Drop_Item_Amount: 1
         Max_Drop_Item_Amount: 1
+        Double_Drops_Enabled: true
     Air_Infused_Stone_531_1:
         ID: 531
         Data_Value: 1
@@ -166,6 +1172,7 @@ Mining:
         Drop_Item_Data_Value: 0
         Min_Drop_Item_Amount: 1
         Max_Drop_Item_Amount: 1
+        Double_Drops_Enabled: true
     Fire_Infused_Stone_531_2:
         ID: 531
         Data_Value: 2
@@ -177,6 +1184,7 @@ Mining:
         Drop_Item_Data_Value: 0
         Min_Drop_Item_Amount: 1
         Max_Drop_Item_Amount: 1
+        Double_Drops_Enabled: true
     Water_Infused_Stone_531_3:
         ID: 531
         Data_Value: 3
@@ -188,6 +1196,7 @@ Mining:
         Drop_Item_Data_Value: 0
         Min_Drop_Item_Amount: 1
         Max_Drop_Item_Amount: 1
+        Double_Drops_Enabled: true
     Earth_Infused_Stone_531_4:
         ID: 531
         Data_Value: 4
@@ -199,6 +1208,7 @@ Mining:
         Drop_Item_Data_Value: 0
         Min_Drop_Item_Amount: 1
         Max_Drop_Item_Amount: 1
+        Double_Drops_Enabled: true
     Order_Infused_Stone_531_5:
         ID: 531
         Data_Value: 5
@@ -210,6 +1220,7 @@ Mining:
         Drop_Item_Data_Value: 0
         Min_Drop_Item_Amount: 1
         Max_Drop_Item_Amount: 1
+        Double_Drops_Enabled: true
     Entropy_Infused_Stone_531_6:
         ID: 531
         Data_Value: 6
@@ -221,6 +1232,7 @@ Mining:
         Drop_Item_Data_Value: 0
         Min_Drop_Item_Amount: 1
         Max_Drop_Item_Amount: 1
+        Double_Drops_Enabled: true
     Amber_Bearing_Stone_531_7:
         ID: 531
         Data_Value: 7
@@ -232,6 +1244,7 @@ Mining:
         Drop_Item_Data_Value: 0
         Min_Drop_Item_Amount: 1
         Max_Drop_Item_Amount: 1
+        Double_Drops_Enabled: true
     Andesite_684:
         ID: 684
         Data_Value: 0
@@ -243,6 +1256,7 @@ Mining:
         Drop_Item_Data_Value: 0
         Min_Drop_Item_Amount: 1
         Max_Drop_Item_Amount: 1
+        Double_Drops_Enabled: true
     Diorite_684_2:
         ID: 684
         Data_Value: 2
@@ -254,6 +1268,7 @@ Mining:
         Drop_Item_Data_Value: 0
         Min_Drop_Item_Amount: 1
         Max_Drop_Item_Amount: 1
+        Double_Drops_Enabled: true
     Sapphire_Ore_1080_12:
         ID: 1080
         Data_Value: 12
@@ -265,17 +1280,19 @@ Mining:
         Drop_Item_Data_Value: 0
         Min_Drop_Item_Amount: 1
         Max_Drop_Item_Amount: 1
-    Sapphire_Ore_2699_1:
-        ID: 2699
-        Data_Value: 1
-        XP_Gain: 670
-        Is_Ore: true
+        Double_Drops_Enabled: true
+    Limestone_1503:
+        ID: 1503
+        Data_Value: 0
+        XP_Gain: 40
+        Is_Ore: false
         Tier: 1
         Drop_Item: false
         Drop_Item_ID: 999
         Drop_Item_Data_Value: 0
         Min_Drop_Item_Amount: 1
         Max_Drop_Item_Amount: 1
+        Double_Drops_Enabled: true
     Apatite_Ore_1133:
         ID: 1133
         Data_Value: 0
@@ -286,7 +1303,8 @@ Mining:
         Drop_Item_ID: 999
         Drop_Item_Data_Value: 0
         Min_Drop_Item_Amount: 1
-        Max_Drop_Item_Amount: 1 
+        Max_Drop_Item_Amount: 1
+        Double_Drops_Enabled: true
     Copper_Ore_1228:
         ID: 1228
         Data_Value: 0
@@ -298,6 +1316,7 @@ Mining:
         Drop_Item_Data_Value: 0
         Min_Drop_Item_Amount: 1
         Max_Drop_Item_Amount: 1
+        Double_Drops_Enabled: true
     Tin_Ore_1228:
         ID: 1228
         Data_Value: 1
@@ -309,6 +1328,7 @@ Mining:
         Drop_Item_Data_Value: 0
         Min_Drop_Item_Amount: 1
         Max_Drop_Item_Amount: 1
+        Double_Drops_Enabled: true
     Silver_Ore_1228_2:
         ID: 1228
         Data_Value: 2
@@ -320,6 +1340,7 @@ Mining:
         Drop_Item_Data_Value: 0
         Min_Drop_Item_Amount: 1
         Max_Drop_Item_Amount: 1
+        Double_Drops_Enabled: true
     Lead_Ore_1228_3:
         ID: 1228
         Data_Value: 3
@@ -331,6 +1352,7 @@ Mining:
         Drop_Item_Data_Value: 0
         Min_Drop_Item_Amount: 1
         Max_Drop_Item_Amount: 1
+        Double_Drops_Enabled: true
     Ferrous_Ore_1228_4:
         ID: 1228
         Data_Value: 4
@@ -342,6 +1364,7 @@ Mining:
         Drop_Item_Data_Value: 0
         Min_Drop_Item_Amount: 1
         Max_Drop_Item_Amount: 1
+        Double_Drops_Enabled: true
     Yellorite_Ore:
         ID: 1240
         Data_Value: 0
@@ -353,6 +1376,7 @@ Mining:
         Drop_Item_Data_Value: 0
         Min_Drop_Item_Amount: 1
         Max_Drop_Item_Amount: 1
+        Double_Drops_Enabled: true
     Salt_Ore_1849:
         ID: 1849
         Data_Value: 0
@@ -364,6 +1388,7 @@ Mining:
         Drop_Item_Data_Value: 0
         Min_Drop_Item_Amount: 1
         Max_Drop_Item_Amount: 1
+        Double_Drops_Enabled: true
     Ruby_Ore_2699:
         ID: 2699
         Data_Value: 0
@@ -375,9 +1400,86 @@ Mining:
         Drop_Item_Data_Value: 0
         Min_Drop_Item_Amount: 1
         Max_Drop_Item_Amount: 1
+        Double_Drops_Enabled: true
+    Sapphire_Ore_2699_1:
+        ID: 2699
+        Data_Value: 1
+        XP_Gain: 670
+        Is_Ore: true
+        Tier: 2
+        Drop_Item: false
+        Double_Drops_Enabled: true
+    Peridot_Ore_2699_2:
+        ID: 2699
+        Data_Value: 2
+        XP_Gain: 100
+        Is_Ore: true
+        Tier: 2
+        Drop_Item: false
+        Double_Drops_Enabled: true
+    Copper_Ore_2699_3:
+        ID: 2699
+        Data_Value: 3
+        XP_Gain: 200
+        Is_Ore: true
+        Tier: 2
+        Drop_Item: false
+        Double_Drops_Enabled: true
+    Tin_Ore_2699_4:
+        ID: 2699
+        Data_Value: 4
+        XP_Gain: 175
+        Is_Ore: true
+        Tier: 2
+        Drop_Item: false
+        Double_Drops_Enabled: true
+    Silver_Ore_2699_5:
+        ID: 2699
+        Data_Value: 5
+        XP_Gain: 200
+        Is_Ore: true
+        Tier: 2
+        Drop_Item: false
+        Double_Drops_Enabled: true
     Electrotine_Ore_2699_6:
         ID: 2699
         Data_Value: 6
+        XP_Gain: 200
+        Is_Ore: true
+        Tier: 2
+        Drop_Item: false
+        Drop_Item_ID: 999
+        Drop_Item_Data_Value: 0
+        Min_Drop_Item_Amount: 1
+        Max_Drop_Item_Amount: 1
+        Double_Drops_Enabled: true
+    Dense_Iron_Ore_2715:
+        ID: 2715
+        Data_Value: 0
+        XP_Gain: 275
+        Is_Ore: true
+        Tier: 1
+        Drop_Item: false
+        Drop_Item_ID: 999
+        Drop_Item_Data_Value: 0
+        Min_Drop_Item_Amount: 1
+        Max_Drop_Item_Amount: 1
+        Double_Drops_Enabled: true
+    Dense_Gold_Ore_2715_1:
+        ID: 2715
+        Data_Value: 1
+        XP_Gain: 420
+        Is_Ore: true
+        Tier: 1
+        Drop_Item: false
+        Drop_Item_ID: 999
+        Drop_Item_Data_Value: 0
+        Min_Drop_Item_Amount: 1
+        Max_Drop_Item_Amount: 1
+        Double_Drops_Enabled: true
+    Dense_Diamond_Ore_2715_3:
+        ID: 2715
+        Data_Value: 3
         XP_Gain: 900
         Is_Ore: true
         Tier: 2
@@ -386,7 +1488,20 @@ Mining:
         Drop_Item_Data_Value: 0
         Min_Drop_Item_Amount: 1
         Max_Drop_Item_Amount: 1
-    Dense_Coal_Ore_2715:
+        Double_Drops_Enabled: true
+    Dense_Emerald_Ore_2715_4:
+        ID: 2715
+        Data_Value: 4
+        XP_Gain: 1200
+        Is_Ore: true
+        Tier: 2
+        Drop_Item: false
+        Drop_Item_ID: 999
+        Drop_Item_Data_Value: 0
+        Min_Drop_Item_Amount: 1
+        Max_Drop_Item_Amount: 1
+        Double_Drops_Enabled: true
+    Dense_Coal_Ore_2715_6:
         ID: 2715
         Data_Value: 6
         XP_Gain: 120
@@ -397,7 +1512,8 @@ Mining:
         Drop_Item_Data_Value: 0
         Min_Drop_Item_Amount: 1
         Max_Drop_Item_Amount: 1
-    Aluminum_Ore_2077:
+        Double_Drops_Enabled: true
+    Aluminum_Ore_2077_5:
         ID: 2077
         Data_Value: 5
         XP_Gain: 120
@@ -408,6 +1524,271 @@ Mining:
         Drop_Item_Data_Value: 0
         Min_Drop_Item_Amount: 1
         Max_Drop_Item_Amount: 1
+        Double_Drops_Enabled: true
+    Nether_Coal_Ore:
+        ID: 2283
+        Data_Value: 0
+        XP_Gain: 100
+        Is_Ore: true
+        Tier: 1
+        Drop_Item: false
+        Drop_Item_ID: 999
+        Drop_Item_Data_Value: 0
+        Min_Drop_Item_Amount: 1
+        Max_Drop_Item_Amount: 1
+        Double_Drops_Enabled: true
+    Nether_Diamond_Ore_1:
+        ID: 2283
+        Data_Value: 1
+        XP_Gain: 1000
+        Is_Ore: true
+        Tier: 1
+        Drop_Item: false
+        Drop_Item_ID: 999
+        Drop_Item_Data_Value: 0
+        Min_Drop_Item_Amount: 1
+        Max_Drop_Item_Amount: 1
+        Double_Drops_Enabled: true
+    Nether_Gold_Ore:
+        ID: 2283
+        Data_Value: 2
+        XP_Gain: 350
+        Is_Ore: true
+        Tier: 1
+        Drop_Item: false
+        Drop_Item_ID: 999
+        Drop_Item_Data_Value: 0
+        Min_Drop_Item_Amount: 1
+        Max_Drop_Item_Amount: 1
+        Double_Drops_Enabled: true
+    Nether_Iron_Ore:
+        ID: 2283
+        Data_Value: 3
+        XP_Gain: 250
+        Is_Ore: true
+        Tier: 1
+        Drop_Item: false
+        Drop_Item_ID: 999
+        Drop_Item_Data_Value: 0
+        Min_Drop_Item_Amount: 1
+        Max_Drop_Item_Amount: 1
+        Double_Drops_Enabled: true
+    Nether_Lapis_Ore:
+        ID: 2283
+        Data_Value: 4
+        XP_Gain: 400
+        Is_Ore: true
+        Tier: 1
+        Drop_Item: false
+        Drop_Item_ID: 999
+        Drop_Item_Data_Value: 0
+        Min_Drop_Item_Amount: 1
+        Max_Drop_Item_Amount: 1
+        Double_Drops_Enabled: true
+    Nether_Redstone_Ore_5:
+        ID: 2283
+        Data_Value: 5
+        XP_Gain: 150
+        Is_Ore: true
+        Tier: 1
+        Drop_Item: false
+        Drop_Item_ID: 999
+        Drop_Item_Data_Value: 0
+        Min_Drop_Item_Amount: 1
+        Max_Drop_Item_Amount: 1
+        Double_Drops_Enabled: true
+    Nether_Copper_Ore_6:
+        ID: 2283
+        Data_Value: 6
+        XP_Gain: 200
+        Is_Ore: true
+        Tier: 1
+        Drop_Item: false
+        Drop_Item_ID: 999
+        Drop_Item_Data_Value: 0
+        Min_Drop_Item_Amount: 1
+        Max_Drop_Item_Amount: 1
+        Double_Drops_Enabled: true
+    Nether_Tin_Ore:
+        ID: 2283
+        Data_Value: 7
+        XP_Gain: 175
+        Is_Ore: true
+        Tier: 1
+        Drop_Item: false
+        Drop_Item_ID: 999
+        Drop_Item_Data_Value: 0
+        Min_Drop_Item_Amount: 1
+        Max_Drop_Item_Amount: 1
+        Double_Drops_Enabled: true
+    Nether_Emerald_Ore:
+        ID: 2283
+        Data_Value: 8
+        XP_Gain: 1000
+        Is_Ore: true
+        Tier: 1
+        Drop_Item: false
+        Drop_Item_ID: 999
+        Drop_Item_Data_Value: 0
+        Min_Drop_Item_Amount: 1
+        Max_Drop_Item_Amount: 1
+        Double_Drops_Enabled: true
+    Nether_Silver_Ore:
+        ID: 2283
+        Data_Value: 9
+        XP_Gain: 100
+        Is_Ore: true
+        Tier: 1
+        Drop_Item: false
+        Drop_Item_ID: 999
+        Drop_Item_Data_Value: 0
+        Min_Drop_Item_Amount: 1
+        Max_Drop_Item_Amount: 1
+        Double_Drops_Enabled: true
+    Nether_Lead_Ore:
+        ID: 2283
+        Data_Value: 10
+        XP_Gain: 100
+        Is_Ore: true
+        Tier: 1
+        Drop_Item: false
+        Drop_Item_ID: 999
+        Drop_Item_Data_Value: 0
+        Min_Drop_Item_Amount: 1
+        Max_Drop_Item_Amount: 1
+        Double_Drops_Enabled: true
+    Nether_Uranium_Ore:
+        ID: 2283
+        Data_Value: 11
+        XP_Gain: 100
+        Is_Ore: true
+        Tier: 1
+        Drop_Item: false
+        Drop_Item_ID: 999
+        Drop_Item_Data_Value: 0
+        Min_Drop_Item_Amount: 1
+        Max_Drop_Item_Amount: 1
+        Double_Drops_Enabled: true
+    Nether_Ruby_Ore:
+        ID: 2283
+        Data_Value: 13
+        XP_Gain: 100
+        Is_Ore: true
+        Tier: 1
+        Drop_Item: false
+        Drop_Item_ID: 999
+        Drop_Item_Data_Value: 0
+        Min_Drop_Item_Amount: 1
+        Max_Drop_Item_Amount: 1
+        Double_Drops_Enabled: true
+    Nether_Peridot_Ore:
+        ID: 2283
+        Data_Value: 14
+        XP_Gain: 100
+        Is_Ore: true
+        Tier: 1
+        Drop_Item: false
+        Drop_Item_ID: 999
+        Drop_Item_Data_Value: 0
+        Min_Drop_Item_Amount: 1
+        Max_Drop_Item_Amount: 1
+        Double_Drops_Enabled: true
+    Nether_Sapphire_Ore:
+        ID: 2283
+        Data_Value: 15
+        XP_Gain: 100
+        Is_Ore: true
+        Tier: 1
+        Drop_Item: false
+        Drop_Item_ID: 999
+        Drop_Item_Data_Value: 0
+        Min_Drop_Item_Amount: 1
+        Max_Drop_Item_Amount: 1
+        Double_Drops_Enabled: true
+    Nether_Ferrous_Ore:
+        ID: 2284
+        Data_Value: 1
+        XP_Gain: 100
+        Is_Ore: true
+        Tier: 1
+        Drop_Item: false
+        Drop_Item_ID: 999
+        Drop_Item_Data_Value: 0
+        Min_Drop_Item_Amount: 1
+        Max_Drop_Item_Amount: 1
+        Double_Drops_Enabled: true
+    Nether_Pig_Iron_Ore:
+        ID: 2284
+        Data_Value: 2
+        XP_Gain: 1000
+        Is_Ore: true
+        Tier: 1
+        Drop_Item: false
+        Drop_Item_ID: 999
+        Drop_Item_Data_Value: 0
+        Min_Drop_Item_Amount: 1
+        Max_Drop_Item_Amount: 1
+        Double_Drops_Enabled: true
+    Nether_Iridium_Ore:
+        ID: 2284
+        Data_Value: 3
+        XP_Gain: 1000
+        Is_Ore: true
+        Tier: 1
+        Drop_Item: false
+        Drop_Item_ID: 999
+        Drop_Item_Data_Value: 0
+        Min_Drop_Item_Amount: 1
+        Max_Drop_Item_Amount: 1
+        Double_Drops_Enabled: true
+    Nether_Sulfur_Ore:
+        ID: 2284
+        Data_Value: 5
+        XP_Gain: 100
+        Is_Ore: true
+        Tier: 1
+        Drop_Item: false
+        Drop_Item_ID: 999
+        Drop_Item_Data_Value: 0
+        Min_Drop_Item_Amount: 1
+        Max_Drop_Item_Amount: 1
+        Double_Drops_Enabled: true
+    Nether_Amber_Ore:
+        ID: 2284
+        Data_Value: 11
+        XP_Gain: 100
+        Is_Ore: true
+        Tier: 1
+        Drop_Item: false
+        Drop_Item_ID: 999
+        Drop_Item_Data_Value: 0
+        Min_Drop_Item_Amount: 1
+        Max_Drop_Item_Amount: 1
+        Double_Drops_Enabled: true
+    Nether_Salt_Ore:
+        ID: 2284
+        Data_Value: 13
+        XP_Gain: 100
+        Is_Ore: true
+        Tier: 1
+        Drop_Item: false
+        Drop_Item_ID: 999
+        Drop_Item_Data_Value: 0
+        Min_Drop_Item_Amount: 1
+        Max_Drop_Item_Amount: 1
+        Double_Drops_Enabled: true
+    Nether_Saltpeter_Ore:
+        ID: 2284
+        Data_Value: 14
+        XP_Gain: 100
+        Is_Ore: true
+        Tier: 1
+        Drop_Item: false
+        Drop_Item_ID: 999
+        Drop_Item_Data_Value: 0
+        Min_Drop_Item_Amount: 1
+        Max_Drop_Item_Amount: 1
+        Double_Drops_Enabled: true
 #
 #  Settings for Custom Woodcutting Blocks
 ###
@@ -443,6 +1824,7 @@ Woodcutting:
         Drop_Item_Data_Value: 0
         Min_Drop_Item_Amount: 1
         Max_Drop_Item_Amount: 1
+        Double_Drops_Enabled: true
     MINEFACTORYRELOADED_RUBBERWOODLOG:
         ID: 1688
         Data_Value: 0
@@ -453,6 +1835,7 @@ Woodcutting:
         Drop_Item_Data_Value: 0
         Min_Drop_Item_Amount: 1
         Max_Drop_Item_Amount: 1
+        Double_Drops_Enabled: true
     Rubber_Wood_1688_1:
         ID: 1688
         Data_Value: 1
@@ -463,6 +1846,7 @@ Woodcutting:
         Drop_Item_Data_Value: 0
         Min_Drop_Item_Amount: 1
         Max_Drop_Item_Amount: 1
+        Double_Drops_Enabled: true
     Greatwood_Log_532:
         ID: 532
         Data_Value: 0
@@ -473,7 +1857,15 @@ Woodcutting:
         Drop_Item_Data_Value: 0
         Min_Drop_Item_Amount: 1
         Max_Drop_Item_Amount: 1
-    NATURA_TREE:
+        Double_Drops_Enabled: true
+    Greatwood_Leaves_533:
+        ID: 533
+        Data_Value: 0
+        XP_Gain: 0
+        Is_Log: false
+        Drop_Item: false
+        Double_Drops_Enabled: false
+    Sakura_Log_918_1:
         ID: 918
         Data_Value: 1
         XP_Gain: 30
@@ -483,16 +1875,19 @@ Woodcutting:
         Drop_Item_Data_Value: 0
         Min_Drop_Item_Amount: 1
         Max_Drop_Item_Amount: 1
-    Tiger_Wood_954_3:
+        Double_Drops_Enabled: true
+    Sakura_Leaves_922:
+        ID: 922
+        Data_Value: 0
+        XP_Gain: 0
+        Is_Log: false
+        Double_Drops_Enabled: false
+    Maple_Wood_954:
         ID: 954
-        Data_Value: 3
-        XP_Gain: 80
+        Data_Value: 0
+        XP_Gain: 90
         Is_Log: true
-        Drop_Item: false
-        Drop_Item_ID: 999
-        Drop_Item_Data_Value: 0
-        Min_Drop_Item_Amount: 1
-        Max_Drop_Item_Amount: 1
+        Double_Drops_Enabled: true
     Silverbell_Wood_954_1:
         ID: 954
         Data_Value: 1
@@ -503,27 +1898,24 @@ Woodcutting:
         Drop_Item_Data_Value: 0
         Min_Drop_Item_Amount: 1
         Max_Drop_Item_Amount: 1
-#leaves
-    Tiger_Leaves_955_3:
-        ID: 955
+        Double_Drops_Enabled: true
+    Amaranth_Wood_954_2:
+        ID: 954
+        Data_Value: 2
+        XP_Gain: 90
+        Is_Log: true
+        Double_Drops_Enabled: true
+    Tiger_Wood_954_3:
+        ID: 954
         Data_Value: 3
-        XP_Gain: 0
-        Is_Log: false
+        XP_Gain: 80
+        Is_Log: true
         Drop_Item: false
         Drop_Item_ID: 999
         Drop_Item_Data_Value: 0
         Min_Drop_Item_Amount: 1
         Max_Drop_Item_Amount: 1
-    Rubber_Leaves_1689:
-        ID: 1689
-        Data_Value: 0
-        XP_Gain: 0
-        Is_Log: false
-        Drop_Item: false
-        Drop_Item_ID: 999
-        Drop_Item_Data_Value: 0
-        Min_Drop_Item_Amount: 1
-        Max_Drop_Item_Amount: 1
+        Double_Drops_Enabled: true
 #
 #  Settings for Custom Ability Blocks
 #  (These blocks don't trigger abilities)
